@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Insert title here</title>
+</head>
+<body>
+	<div style="width: 680px; border: 1px solid #BFBCBC; font-family: '맑은 고딕';">
+		<div style="border-top: 10px solid #134b8b;">
+			<div class="f_img">
+				<div style="height: 41px;">
+					<img style="width:80px;float: right; margin-right: 10px; margin-top: 10px;" src="cid:header_logo"/>
+				</div>
+			</div>
+			<div style="margin-top: 5px; text-align: center; font-size: 15px;">
+				<span style="font-weight: 500; font-size: 16px;">(주)포스코 ICT 서비스를 이용하여 주신 고객님께 진심으로 감사를 드립니다. </span><br/>
+				당월 청구서를 발행하여 드리오니, 문의사항은 아래의 연락처로 부탁 드립니다.
+			</div>
+		</div>
+		<div style="width: 94%; margin: 0px auto; margin-top: 25px; background-color: #EFEBEF; padding: 8px;margin-bottom: 15px; font-family:'맑은 고딕';">
+			<div style="background-color: #ffffff; height: 195px;">
+				<div style="padding-left: 4px; padding-top:10px;">
+					<table style="border-collapse: collapse; width: 98%; margin: 0px auto; border-top: 3px solid #134b8b;">
+						<tr>
+							<th style="background-color: #f7f7f7; width: 90px; height: 25px; font-weight: 400; font-size: 13px; border-top: 1px solid #BFBCBC; border-bottom: 1px solid #BFBCBC; text-align: left; padding-left: 8px;">주소</th>
+							<td style="width: 300px; text-align: left; border-top: 1px solid #BFBCBC; border-left: 1px solid #BFBCBC; border-bottom: 1px solid #BFBCBC; font-size: 13px; padding: 8px; font-weight: bold; padding-left: 5px;">경기도 성남시 분당구 판교로 255</td>								
+						</tr>
+						<tr>
+							<th style="background-color: #f7f7f7; width: 90px; height: 25px; font-weight: 400; font-size: 13px; border-top: 1px solid #BFBCBC; border-bottom: 1px solid #BFBCBC; text-align: left; padding-left: 8px;">담당자</th>
+							<td style="width: 300px; text-align: left; border-top: 1px solid #BFBCBC; border-left: 1px solid #BFBCBC; border-bottom: 1px solid #BFBCBC; font-size: 13px; padding: 8px; font-weight: bold; padding-left: 5px;">${dept} ${person}</td>								
+                        </tr>
+                        <tr>
+							<th style="background-color: #f7f7f7; width: 90px; height: 25px; font-weight: 400; font-size: 13px; border-top: 1px solid #BFBCBC; border-bottom: 1px solid #BFBCBC; text-align: left; padding-left: 8px;">E-Mail</th>
+							<td style="width: 300px; text-align: left; border-top: 1px solid #BFBCBC; border-left: 1px solid #BFBCBC; border-bottom: 1px solid #BFBCBC; font-size: 13px; padding: 8px; font-weight: bold; padding-left: 5px;">${email}</td>								
+                        </tr>
+                        <tr>
+							<th style="background-color: #f7f7f7; width: 90px; height: 25px; font-weight: 400; font-size: 13px; border-top: 1px solid #BFBCBC; border-bottom: 1px solid #BFBCBC; text-align: left; padding-left: 8px;">Tel.</th>
+							<td style="width: 300px; text-align: left; border-top: 1px solid #BFBCBC; border-left: 1px solid #BFBCBC; border-bottom: 1px solid #BFBCBC; font-size: 13px; padding: 8px; font-weight: bold; padding-left: 5px;">${tel}</td>								
+                        </tr>
+                        <tr>
+							<th style="background-color: #f7f7f7; width: 90px; height: 25px; font-weight: 400; font-size: 13px; border-top: 1px solid #BFBCBC; border-bottom: 1px solid #BFBCBC; text-align: left; padding-left: 8px;">Fax.</th>
+							<td style="width: 300px; text-align: left; border-top: 1px solid #BFBCBC; border-left: 1px solid #BFBCBC; border-bottom: 1px solid #BFBCBC; font-size: 13px; padding: 8px; font-weight: bold; padding-left: 5px;">${fax}</td>								
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div style="margin: 0px auto; margin-top: 10px; width: 93%; margin-bottom: 10px;">
+			<div style="font-size: 13px; color: #666666;">
+				<div style="margin-top: 10px; font-size: 13px; color: #666666;">
+					* 본 메일을 임의로 위,변조 하여 사용할 경우 형사처벌의 대상이 될 수 있습니다.<br />
+					* 본 메일은 발신전용으로 회신되지 않습니다.
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="last_f">
+		<div style="width: 679px; color: #ACACAC; font-weight: bold; font-size: 10.5px; text-align: right; margin-top: 5px; margin-right: 10px; font-family:'맑은 고딕';">
+		(37861) 경북 포항시 남구 호동로 68 (호동, (주)포스코아이씨티) | 대표전화: 054-280-1114 <br/>
+		<span style="float: right;  margin-top: 1px; font-size: 12px; color: #ACACAC;">Copyright ⓒ 2013 POSCO ICT, All rights reserved.</span>
+		</div>
+		<div style="position: absolute; margin-top: -9px; margin-left: 3px;">
+			<img style="width:70px; margin-left: 10px; margin-top: -3px;" src="cid:footer_logo"/>
+		</div>
+	</div>
+</body>
+</html>
