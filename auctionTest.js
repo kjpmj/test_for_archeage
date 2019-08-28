@@ -6,16 +6,19 @@ request({
   uri : 'https://archeage.xlgames.com/auctions/list/ajax',
   postData : {
     sortType: 'BUYOUT_PRICE_ASC',
-    uuid: charactersCode,
+    // uuid: charactersCode,
     searchType: 'NAME',
     serverCode: 'TOTAL',
     gradeId: '',
-    keywordStr: '훈증',
-    keyword: '훈증',
+    keywordStr: '철 주괴',
+    keyword: '철 주괴',
     aCategory: '',
     bCategory: '',
     cCategory: ''
   }
 }, function(error, response, body){
-  console.log(response);
+  // console.log(error);
+  // console.log(response);
+  body = body.replace(/^\s+|\s+$/gm, '').replace(/\n/g, '');
+  console.log(body);
 });
