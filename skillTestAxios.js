@@ -31,5 +31,19 @@ const getLaborDownPercent = (value) => {
 axios.get(url)
   .then(function(resp){
     const body = resp.data.replace(/^\s+|\s+$/gm, '').replace(/\n/g, '').replace(/<[\s\d\w\/="_<>\-\.:'%]+>/g, '');
-    console.log(body)
+
+    const mySkill = skillNameList.map(skill_name => {
+      const regExpStr = `(?<=${skill_name})\\d+`;
+      const regExp = new RegExp(regExpStr);
+      const skill_value = parseInt(regExp.exec(body)[0]);
+      const labor_down_percent = getLaborDownPercent(skill_value);
+        return {
+          skill_name : skill_name,
+          skill_value : skill_value,
+          labor_down_percent : labor_down_percent
+        }
+      }
+    );
+  
+    console.log(mySkill);
   });
