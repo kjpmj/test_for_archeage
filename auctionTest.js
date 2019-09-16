@@ -26,8 +26,8 @@ const url = 'https://archeage.xlgames.com/auctions/list/ajax';
 const callback = function(err, resp, body){
   console.log(err)
   console.log(resp)
-  body = body.replace(/^\s+|\s+$/gm, '').replace(/\n/g, '')
-  console.log(body)
+  // body = body.replace(/^\s+|\s+$/gm, '').replace(/\n/g, '')
+  // console.log(body)
 }
 
 const params = {
